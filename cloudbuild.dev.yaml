@@ -7,9 +7,3 @@ steps:
 
     - name: 'docker'
       args: ['exec', 'goapp', 'go', 'test']
-
-    # - name: 'docker'
-    #   args: ['push', 'lucaslz/fullcycle-exemplos/live-ci-cd:latest']
-
-    # - name: 'docker'
-    #   args: ['push', 'lucaslz/fullcycle-exemplos/live-ci-cd:$SHORT_SHA']
