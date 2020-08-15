@@ -1,5 +1,5 @@
 steps:
-    - name: 'lucaslz/cloud-builders/docker'
+    - name: 'gcr.io/cloud-builders/docker'
       args: ['build','-t','lucaslz/fullcycle-exemplos/live-ci-cd:latest', '-t','lucaslz/fullcycle-exemplos/live-ci-cd:$SHORT_SHA','.']
 
     - name: 'docker'
